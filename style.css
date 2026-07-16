@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;   /* Center left ↔ right */
+    align-items: flex-start;   /* Put content at the top */
+
+    padding-top: 140px;        /* Push it down a little */
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+    background: linear-gradient(
+        180deg,
+        #2b1248 0%,
+        #1a132d 45%,
+        #0d0d16 75%,
+        #050507 100%
+    );
+}
+
+.hero {
+    text-align: center;
+}
